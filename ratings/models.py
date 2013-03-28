@@ -104,7 +104,6 @@ class RatingsQuerySet(QuerySet):
                 related_field,
                 aggregator('score'),
                 self,
-                descending,
                 alias
             )
 
